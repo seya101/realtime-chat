@@ -4,7 +4,7 @@
       <div class="card-content center-align">
         <h2 class="light-blue-text text-accent-4">Welcome!👋</h2>
         <form @submit.prevent="enterChat">
-          <label for="name">Enter your prefered name:</label>
+          <label for="name">Enter your preferred name:</label>
           <input type="text" name="name" v-model="name">
           <p v-if="feedback" class="red-text"> {{ feedback }}</p>
           <button class="btn light-blue accent-4">Enter Chat</button>
