@@ -3,7 +3,7 @@
 > A Vue.js project 
 
 ### Screenshot
-![](./screenshot.png)
+![](screenshot.png)
 
 ## Built with
 - Materialize
